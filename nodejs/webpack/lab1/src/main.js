@@ -1,4 +1,5 @@
 require('./main.css');
-console.log("main.js v0.0.19");
+require('./index.html');
+console.log("main.js v0.0.20");
 
 
