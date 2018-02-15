@@ -14,6 +14,7 @@ module.exports = {
     devServer: {
         contentBase: "dist",
         hot:true,
+        overlay:true,
         host: "0.0.0.0",
         port: 3000
     },
