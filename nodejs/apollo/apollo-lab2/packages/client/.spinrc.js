@@ -11,7 +11,13 @@ const config = {
       },
       // Wait for backend to start prior to letting webpack load frontend page
       waitOn: ['tcp:localhost:8080'],
-      enabled: true
+      enabled: true,
+      webpackConfig: {
+        devServer: {
+         host: "0.0.0.0",
+         port: 9090
+      }
+     }
     },
     test: {
       stack: ['react-native-web', 'server'],

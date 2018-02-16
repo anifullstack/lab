@@ -9,7 +9,12 @@ const config = {
         __BACKEND_URL__: '"http://localhost:8080/graphql"',
         __SERVER__: true
       },
-      enabled: true
+      enabled: true,
+      webpackConfig: {
+        devServer: {
+         host: "0.0.0.0",
+         port: 9090
+      }
     },
     test: {
       stack: ['react-native-web', 'server'],
