@@ -15,6 +15,7 @@ const config = {
          host: "0.0.0.0",
          port: 9090
       }
+     }
     },
     test: {
       stack: ['react-native-web', 'server'],
